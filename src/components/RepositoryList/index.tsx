@@ -30,12 +30,12 @@ export function RepositoryList() {
       .then((response) => response.json())
       .then((data) => {
 
-        if (isNewsUser){
-           repositories = [];
-           setPage(1)
+        if (isNewsUser) {
+          repositories = [];
+          setPage(1)
         }
         setHasNextPage(!(data.length < per_page))
-        
+
         repositories.push(...data)
         setRepositories(repositories)
         setIsLoading(false)

@@ -1,5 +1,5 @@
-import { ReactElement } from "react";
-export function Logo():ReactElement {
+
+export function Logo() {
     return (
         <div className="logo">
             <h1>jordanio.dev</h1>

@@ -1,6 +1,3 @@
-import { ReactElement } from "react";
-
-
 interface RepositoryItemProps {
   repository: {
     name: string;
@@ -9,7 +6,7 @@ interface RepositoryItemProps {
     watchers: number;
   };
 }
-export function RepositoryItem(props: RepositoryItemProps): ReactElement {
+export function RepositoryItem(props: RepositoryItemProps) {
   return (
     <div className="repositoryItem">
       <span>⭐ {props.repository.watchers}</span>

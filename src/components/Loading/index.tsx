@@ -1,6 +1,5 @@
-import { ReactElement } from "react";
 
-export function Loading(): ReactElement {
+export function Loading() {
     return (
         <div className="loading"></div>
     )
