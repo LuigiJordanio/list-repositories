@@ -1,8 +1,8 @@
 @import "vars.scss";
-@import "components/logo.scss";
-@import "components/RepositoryItem.scss";
-@import "components/RepositoryList.scss";
-@import "components/Loading.scss";
+@import "./components/logo.scss";
+@import "./components/RepositoryItem.scss";
+@import "./components/RepositoryList.scss";
+@import "./components/Loading.scss";
 *{
     margin: 0;
     padding: 0;
