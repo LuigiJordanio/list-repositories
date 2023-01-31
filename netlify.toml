@@ -1,0 +1,3 @@
+[build]
+  command = "npm list webpack-cli && npm run build"
+  publish = "dist"
