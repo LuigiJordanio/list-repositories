@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { ReactElement, useEffect, useState } from "react";
 import { Loading } from "../Loading";
 import { RepositoryItem } from "../RepositoryItem";
 interface Repository {
@@ -9,7 +9,7 @@ interface Repository {
   watchers: number;
 }
 
-export function RepositoryList() {
+export function RepositoryList():ReactElement {
   let [repositories, setRepositories] = useState<Repository[]>([]);
   let [page, setPage] = useState<number>(1);
   let [gitUser, setGitUser] = useState<string>('luigiJordanio');

@@ -14,7 +14,7 @@
     "tsc-init": "^2.1.0"
   },
   "scripts": {
-    "start": "webpack serve",
+    "start": "webpack serve --mode development",
     "dev": "webpack serve",
     "build": "webpack --mode production",
     "test": "karma start"
