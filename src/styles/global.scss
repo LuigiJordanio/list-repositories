@@ -1,0 +1,20 @@
+@import "vars.scss";
+@import "components/logo.scss";
+@import "components/RepositoryItem.scss";
+@import "components/RepositoryList.scss";
+@import "components/Loading.scss";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: $brand-red_dark-3;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: min(100% - 24, 1280);
+    margin-inline: auto;
+}
