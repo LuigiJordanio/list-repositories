@@ -1,0 +1,50 @@
+.repositoryList {
+  
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+    gap: 16px;
+  
+    input{
+      height: 52px;
+      padding: 0 16px;
+      color: $brand-red_dark-3;
+      min-width: 320px;
+    }
+  }
+  h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 39px;
+    color: $background-1;
+  }
+  .containerRepository{
+    padding-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+  }
+
+  button{
+    margin-inline: auto;
+    display: block;
+    width: 100%;
+    max-width: 324px;
+    height: 52px;
+    font-size: 1rem;
+    background: $brand-red_light-1;
+    color: $background-1;
+    cursor: pointer;
+  }
+
+
+  .emptyRepositories{
+    color: $background-1;
+    font-size: 1rem;
+    text-align: center;
+  }
+}
