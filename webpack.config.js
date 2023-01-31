@@ -4,6 +4,7 @@ const isDevelopment = process.env.NODE_ENV !== "production";
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 
 module.exports = {
+  mode: isDevelopment ? "development" : "production",
   devtool: isDevelopment ? "eval-source-map" : "source-map",
   entry: path.resolve(__dirname, "src", "index.tsx"),
   output: {
