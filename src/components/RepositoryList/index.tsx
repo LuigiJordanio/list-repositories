@@ -26,11 +26,7 @@ export function RepositoryList() {
       type: 'all'
     }
 
-    fetch(`https://api.github.com/users/${gitUser}/repos?${new URLSearchParams(parameters).toString()}`, {
-      headers: {
-        'Authorization': 'token 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'
-      }
-    })
+    fetch(`https://api.github.com/users/${gitUser}/repos?${new URLSearchParams(parameters).toString()}`)
       .then((response) => response.json())
       .then((data) => {
 
