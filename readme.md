@@ -26,6 +26,8 @@
    <li><a href="https://sass-lang.com/">SASS</a></li>
    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
    <li><a href="https://babeljs.io/">Babel</a></li>
+   <li><a href="https://pt-br.reactjs.org/">React JS</a></li>
+   <li><a href="https://docs.github.com/pt/rest">Github API</a></li>
 </ul>
 <h2>Instalação</h2>
 <ol>
@@ -39,8 +41,3 @@
    <li>Entre com seu nome de usuário do Github na barra de pesquisa</li>
    <li>Uma lista de seus repositórios será exibida, incluindo o nome, a descrição e o link para o repositório.</li>
 </ol>
-<h2>Tecnologias Utilizadas</h2>
-<ul>
-   <li><a href="https://pt-br.reactjs.org/">React JS</a></li>
-   <li><a href="https://docs.github.com/pt/rest">Github API</a></li>
-</ul>
