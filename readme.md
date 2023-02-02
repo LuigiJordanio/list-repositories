@@ -41,3 +41,5 @@
    <li>Entre com seu nome de usuário do Github na barra de pesquisa</li>
    <li>Uma lista de seus repositórios será exibida, incluindo o nome, a descrição e o link para o repositório.</li>
 </ol>
+<h2>Demo</h2>
+<p>Para acessar a pagina demo basta acessar o link <a href="https://reposjordanio.netlify.app/">https://reposjordanio.netlify.app/</a></p>
