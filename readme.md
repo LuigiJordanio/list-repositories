@@ -28,6 +28,7 @@
    <li><a href="https://babeljs.io/">Babel</a></li>
    <li><a href="https://pt-br.reactjs.org/">React JS</a></li>
    <li><a href="https://docs.github.com/pt/rest">Github API</a></li>
+   <li><a href="https://www.netlify.com/">Netlify</a></li>
 </ul>
 <h2>Instalação</h2>
 <ol>
